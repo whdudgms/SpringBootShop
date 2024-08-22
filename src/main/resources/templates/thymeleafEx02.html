@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <!-- css는 맨위에 -->
+</head>
+<body>
+    <h1>상품 데이터 출력 예제</h1>
+    <div>
+        상품명 : <span th:text="${itemDto.itemNm}"></span>
+    </div>
+    <div>
+        상품 상세 설명 : <span th:text="${itemDto.itemNm}"></span>
+    </div>
+    <div>
+        상품등록일 : <span th:text="${itemDto.regTime}"></span>
+    </div>
+    <div>
+        상품가격 : <span th:text="${itemDto.price}"></span>
+    </div>
+</body>
+</html>
